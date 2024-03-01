@@ -4,8 +4,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .main-section h2 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .review {
+    margin-bottom: 30px;
+  }
+
+  .review img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .review p {
+    color: #666;
+  }
+
+  .shoe-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .shoe-images img {
+    width: 200px;
+    margin: 10px;
+  }
+</style>
 <body>
-  
+  <header style="background-color: black;color: white;">
+    <h1>GIGS FOR KICKS</h1>
+    <p><i>we got you covered</i></p>
+    <div class="navigation">
+      <a href="landingpage.html">HOME</a>
+      <a href="aboutus.html">ABOUT</a>
+      <a href="home.html">PRODUCTS</a>
+      <a href="login.html">LOGIN</a>
+      <a href="table.html"><span class="blog">SIZE TABLE</span></a>
+    </div>
+  </header>
+  <main>
+    <div class="main-section">
+      <h2>Discover the Perfect Shoes for You</h2>
+    
+      <div class="review">
+        <img src="./person1.jpg" alt="Reviewer 1">
+        <p>"These shoes are amazing! They're comfortable and stylish. I love them!"</p>
+      </div>
+    
+      <div class="review">
+        <img src="./person2.jpg" alt="Reviewer 2">
+        <p>"I've been wearing these shoes for months now, and they still look as good as new!"</p>
+      </div>
+    
+      <div class="shoe-images">
+        <img src="./j1s.jpg" alt="Shoe 1">
+        <img src="./roller skates.jpg" alt="Shoe 2">
+        <img src="./dunks.jpg" alt="Shoe 3">
+        <img src="./j1uniform.jpg" alt="Shoe 4">
+
+       
+      </div>
+    </div>
+  </main>
+  <footer>
+    <section class="footer">
+    
+      <div class="socials">
+        <div>
+          <span class="holberton_school-icon-ic_facebook"></span>
+        </div>
+        <div>
+          <span class="holberton_school-icon-ic_twitter"></span>
+        </div>
+        <div>
+          <span class="holberton_school-icon-ic_instagram"></span>
+        </div>
+      </div>
+      
+    </section>
+    <div class="copyright">
+      &copy; sneakers 2024
+    </div>
+
+  </footer>
 </body>
 </html>
